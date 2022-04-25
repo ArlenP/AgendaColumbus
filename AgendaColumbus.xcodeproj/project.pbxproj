@@ -14,6 +14,8 @@
 		AB39A06A2816579F00BC9172 /* AgendaColumbus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB39A0682816579F00BC9172 /* AgendaColumbus.xcdatamodeld */; };
 		AB39A06C281657A100BC9172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB39A06B281657A100BC9172 /* Assets.xcassets */; };
 		AB39A06F281657A100BC9172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB39A06D281657A100BC9172 /* LaunchScreen.storyboard */; };
+		AB39A07B28165D3E00BC9172 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39A07A28165D3E00BC9172 /* EditViewController.swift */; };
+		AB39A07D2816D3A500BC9172 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39A07C2816D3A500BC9172 /* Contacto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AB39A06B281657A100BC9172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB39A06E281657A100BC9172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB39A070281657A100BC9172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB39A07A28165D3E00BC9172 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		AB39A07C2816D3A500BC9172 /* Contacto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 		AB39A05E2816579F00BC9172 /* AgendaColumbus */ = {
 			isa = PBXGroup;
 			children = (
+				AB39A07C2816D3A500BC9172 /* Contacto.swift */,
 				AB39A05F2816579F00BC9172 /* AppDelegate.swift */,
 				AB39A0612816579F00BC9172 /* SceneDelegate.swift */,
 				AB39A0632816579F00BC9172 /* ViewController.swift */,
 				AB39A0652816579F00BC9172 /* Main.storyboard */,
+				AB39A07A28165D3E00BC9172 /* EditViewController.swift */,
 				AB39A06B281657A100BC9172 /* Assets.xcassets */,
 				AB39A06D281657A100BC9172 /* LaunchScreen.storyboard */,
 				AB39A070281657A100BC9172 /* Info.plist */,
@@ -143,6 +149,8 @@
 			files = (
 				AB39A0642816579F00BC9172 /* ViewController.swift in Sources */,
 				AB39A06A2816579F00BC9172 /* AgendaColumbus.xcdatamodeld in Sources */,
+				AB39A07D2816D3A500BC9172 /* Contacto.swift in Sources */,
+				AB39A07B28165D3E00BC9172 /* EditViewController.swift in Sources */,
 				AB39A0602816579F00BC9172 /* AppDelegate.swift in Sources */,
 				AB39A0622816579F00BC9172 /* SceneDelegate.swift in Sources */,
 			);
